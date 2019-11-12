@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#mainHeader {
+  background: #333333;
+  color: white;
+}
+
+#mainNav {
+  background: #cccccc;
+  color: black;
+}
+
+#mainNav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#mainNav li {
+  display: inline;
+  padding: 5px 10px;
+}
+
+#mainNav a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#mainNav li:hover {
+  background: #aaaaaa;
+}
+
+#jumbo {
+  background-image: url('../images/bg.jpg');
+  background-position: center center;
+  min-height: 200px;
+  text-align: center;
+}
+
+#jumbo h1 {
+  color: white;
+  font-size: 45px;
+  padding-top: 20px;
+  line-height:1.6em;
+}
+
+p {
+  border-top: 5px solid blue;
+  border-right: 2px dotted green;
+  border-bottom: 5px dashed red;
+  border-left: 2px dotted green;
+  border: 3px solid green;
+
+  padding: 10px 20px 10px 20px;
+  margin-top: 40px;
+}
